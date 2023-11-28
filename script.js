@@ -19,8 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('random-image').src = randomImage;
     }
 
-    // Change the image every 5 seconds
-    setInterval(changeImage, 5000);
+    setInterval(changeImage, 3000);
 
     // Initial image change
     changeImage();
